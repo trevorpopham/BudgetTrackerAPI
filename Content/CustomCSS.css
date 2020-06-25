@@ -1,0 +1,25 @@
+.swagger-section #header {
+    background-color: #222222 !important;
+    padding: 9px 14px 19px 14px;
+    height: 23px;
+    min-width: 775px;
+}
+
+.toggleEndpointList {
+    font-size: 25px;
+    font-weight: bold
+}
+
+.collapseResource {
+    font-size: 25px;
+    font-weight: bold
+}
+
+.expandResource {
+    font-size: 25px;
+    font-weight: bold
+}
+
+.swagger-section {
+    background-color: #f5f8fa
+}
