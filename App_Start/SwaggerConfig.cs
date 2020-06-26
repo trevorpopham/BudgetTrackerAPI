@@ -190,13 +190,13 @@ namespace BudgetTrackerAPI
                         // The file must be included in your project as an "Embedded Resource", and then the resource's
                         // "Logical Name" is passed to the method as shown below.
                         //
-                        c.InjectStylesheet(thisAssembly, "BudgetTrackerAPI.Content.CustomCSS.css");
+                        c.InjectStylesheet(thisAssembly, "BudgetTrackerAPI.Content.CustomSwagger.css");
 
                         // Use the "InjectJavaScript" option to invoke one or more custom JavaScripts after the swagger-ui
                         // has loaded. The file must be included in your project as an "Embedded Resource", and then the resource's
                         // "Logical Name" is passed to the method as shown above.
                         //
-                        c.InjectJavaScript(thisAssembly, "BudgetTrackerAPI.Scripts.CustomJS.js");
+                        c.InjectJavaScript(thisAssembly, "BudgetTrackerAPI.Scripts.CustomSwagger.js");
 
                         // The swagger-ui renders boolean data types as a dropdown. By default, it provides "true" and "false"
                         // strings as the possible choices. You can use this option to change these to something else,

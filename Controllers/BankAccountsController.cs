@@ -16,6 +16,14 @@ namespace BudgetTrackerAPI.Controllers
     [RoutePrefix("api/BankAccounts")]
     public class BankAccountsController : BaseController
     {
+        /// <summary>
+        /// Add A Bank Account
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="Balance"></param>
+        /// <param name="Type"></param>
+        /// <param name="UserId"></param>
+        /// <returns></returns>
         [HttpPost, Route("AddAccount")]
         public IHttpActionResult AddBudgetItem(string Name, decimal Balance, AccountType Type, string UserId)
         {

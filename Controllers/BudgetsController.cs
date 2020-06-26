@@ -46,7 +46,11 @@ namespace BudgetTrackerAPI.Controllers
             var data = await db.GetBudgetsByHousehold(HouseholdId);
             return Json(data, new JsonSerializerSettings { Formatting = Formatting.Indented });
         }
-
+        /// <summary>
+        /// Get Budget Details
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
         [Route("GetBudgetDetails")]
         public async Task<IHttpActionResult> GetBudgetDetails(int Id)
         {

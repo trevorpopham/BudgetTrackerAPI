@@ -486,6 +486,16 @@
             Bank Accounts Controller
             </summary>
         </member>
+        <member name="M:BudgetTrackerAPI.Controllers.BankAccountsController.AddBudgetItem(System.String,System.Decimal,BudgetTrackerAPI.Models.AccountType,System.String)">
+            <summary>
+            Add A Bank Account
+            </summary>
+            <param name="Name"></param>
+            <param name="Balance"></param>
+            <param name="Type"></param>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
         <member name="M:BudgetTrackerAPI.Controllers.BankAccountsController.GetBankAccounts">
             <summary>
             Get All Bank Accounts
@@ -598,6 +608,13 @@
             Get Budgets by Group Id
             </summary>
             <param name="HouseholdId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BudgetTrackerAPI.Controllers.BudgetsController.GetBudgetDetails(System.Int32)">
+            <summary>
+            Get Budget Details
+            </summary>
+            <param name="Id"></param>
             <returns></returns>
         </member>
         <member name="M:BudgetTrackerAPI.Controllers.BudgetsController.EditBudget(System.Int32,System.String,System.Decimal,System.Decimal)">
@@ -723,6 +740,13 @@
             Delete Transaction
             </summary>
             <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BudgetTrackerAPI.Controllers.UsersController.GetUserByEmail(System.String)">
+            <summary>
+            Get User By Email
+            </summary>
+            <param name="Email"></param>
             <returns></returns>
         </member>
         <member name="T:BudgetTrackerAPI.Models.ApiContext">

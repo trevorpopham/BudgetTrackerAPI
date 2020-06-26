@@ -1,0 +1,13 @@
+﻿.swagger-section #header
+
+{
+    background-color: forestgreen;
+}
+
+.swagger-section #header form#api_selector .input a#explore {
+    background-color: forestgreen;
+}
+
+.swagger-section #header form#api_selector .input a#explore:hover {
+    background-color: lightgreen;
+    }

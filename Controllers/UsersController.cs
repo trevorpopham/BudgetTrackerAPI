@@ -11,6 +11,11 @@ namespace BudgetTrackerAPI.Controllers
 {
     public class UsersController : BaseController
     {
+        /// <summary>
+        /// Get User By Email
+        /// </summary>
+        /// <param name="Email"></param>
+        /// <returns></returns>
         [Route("GetUserByEmail")]
         public async Task<IHttpActionResult> GetUserByEmail(string Email)
         {
